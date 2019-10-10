@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+    background-color: #273443;
+}
+
+ul
+{
+   position: -webkit-sticky;
+   position: sticky;
+   display: block;
+   margin-top: 10px;
+   text-align: center;
+   background-color: rgb(192, 207, 107);
+   justify-content: space-around;
+   overflow: hidden;
+   
+   
+    
+} 
+
+li
+{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+
+}
+
+li a 
+        {
+                margin-top : 0px;
+                display: block;
+                color: rgb(65, 105, 0);
+                font-family: 'Titillium Web', sans-serif, verdana, arial, helvetica, serif, sans-serif;
+                font-size: 12pt;
+                
+                text-align: center;
+                padding: 15px;
+                
+}
+
+
+li a:hover {
+    background-color: #10694A;
+    color: rgb(255, 255, 255);
+    }
+
+
+    .mainLogo
+    {
+        float: center;
+        position: sticky;
+        margin: 10px 100px 10px 800px;
+    }
+
+    #firstText
+    {
+        font-family: 'Titillium Web', sans-serif, verdana, arial, helvetica, serif, sans-serif;
+        margin-top: 50px;
+        margin-left: 500px;
+        float: inherit;
+        color: #c0cf6b
+    }
+
+    #secondText
+    {
+        font-family: 'Titillium Web', sans-serif, verdana, arial, helvetica, serif, sans-serif;
+        margin-top: 50px;
+        margin-left: 500px;
+        float: inherit;
+        color: #c0cf6b  
+
+    }
+
+    .contactFormHeading
+    {
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif, verdana, arial, helvetica, serif, sans-serif;
+        font-size: 25px;
+        color: #c0cf6b
+        
+    }
+   
+    #logoText
+    {
+        font-family: 'Titillium Web', sans-serif, verdana, arial, helvetica, serif, sans-serif;
+        font-size: 25px;
+        margin: 10px 100px 10px 692px;
+        color: #c0cf6b
+    }
+                
+    .footer
+    {
+        font-family: 'Titillium Web', sans-serif, verdana, arial, helvetica, serif, sans-serif;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #10694A;
+        color: white;
+        text-align: center;
+        padding: 0;
+    }
